@@ -1,19 +1,40 @@
-# Getting Started
+# 🏡Spring-CRUD-With-Restaurant Management:
 
-### Reference Documentation
-For further reference, please consider the following sections:
+## Framework Used
+```
+SpringBoot
+```
+## Language Used
+```
+Java
+```
+## Data flow
+`
+In this project, we have four layers-
+`
+```
+Controller - The controller layer handles the HTTP requests, translates the JSON parameter to object, and authenticates the request and transfer it to the business (service) layer. In short, it consists of views i.e., frontend part.
+```
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.1.1/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.1.1/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/3.1.1/reference/htmlsingle/#web)
-* [Validation](https://docs.spring.io/spring-boot/docs/3.1.1/reference/htmlsingle/#io.validation)
+```
+Repository - Here data is stored..
+```
 
-### Guides
-The following guides illustrate how to use some features concretely:
+```
+Service -The business layer handles all the business logic. It consists of service classes and uses services provided by data access layers.
+```
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-* [Validation](https://spring.io/guides/gs/validating-form-input/)
+
+## Project Summary
+`project basically maintains the upcoming user information with various validation which includes-`
+
+```
+restaurant name
+restaurant address
+number
+specialty
+total staffs
+```
+
+`You can read, read by specific id, update Name of specific Restaurant, delete a Restaurant by their Id by api calls.`
 
