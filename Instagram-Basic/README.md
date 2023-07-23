@@ -1,13 +1,13 @@
 <h1 align="center"> 
-🏡Instagram Basic Design - Part 1</h1>
+Instagram Basic Design</h1>
 This project is aimed at creating the basic design of the backend of Instagram. This Readme.md file will guide you through the project setup, the models used, and the API endpoints available.
 
 > ### Prerequisites
 
-- ![MySql](https://img.shields.io/badge/DBMS-MYSQL%205.7%20or%20Higher-red)
-- ![SpringBoot](https://img.shields.io/badge/Framework-SpringBoot-green)
+- [MySql](https://img.shields.io/badge/DBMS-MYSQL%205.7%20or%20Higher-red)
+- [SpringBoot](https://img.shields.io/badge/Framework-SpringBoot-green)
 
-- ![Java](https://img.shields.io/badge/Language-Java%208%20or%20higher-yellow)
+- [Java](https://img.shields.io/badge/Language-Java%208%20or%20higher-yellow)
 
 > ## Installation
 
