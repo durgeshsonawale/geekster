@@ -79,9 +79,7 @@ This controller includes the following endpoints for posts:
 - PostData
 - User
 
-> ## Contributors
 
-- [Biswajeet Mohanta](https://github.com/Biswajeetmohanta123)
 
 > ## Project Summary
 >
