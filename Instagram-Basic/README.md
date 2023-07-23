@@ -7,7 +7,7 @@ This project is aimed at creating the basic design of the backend of Instagram. 
 - [MySql](https://img.shields.io/badge/DBMS-MYSQL%205.7%20or%20Higher-red)
 - [SpringBoot](https://img.shields.io/badge/Framework-SpringBoot-green)
 
-- ![Java](https://img.shields.io/badge/Language-Java%208%20or%20higher-yellow)
+- [Java](https://img.shields.io/badge/Language-Java%208%20or%20higher-yellow)
 
 > ## Installation
 
