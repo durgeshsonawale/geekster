@@ -1,6 +1,6 @@
 
 <h1 align="center"> 
-Mapping-Practice</h1>
+Doctor-App</h1>
 This project is aimed at creating the basic design of the backend of Instagram. This Readme.md file will guide you through the project setup, the models used, and the API endpoints available.
 
 >### Prerequisites
@@ -31,87 +31,14 @@ To run this application locally, you will need to have Java and MySQL installed 
 >## API Documentation
 The API endpoints will be available at http://localhost:8080.
 
-#### Endpoints
->User Controller
 
-This controller includes the following endpoints for user authentication:
-
-* POST /auth/signup: create a new user account
-* POST /auth/signin: log in an existing user and generate an authentication token
-* PUT /auth/user: update user information
-
->Post Controller
-
-This controller includes the following endpoints for posts:
-
-* POST /post: create a new post
-* GET /post/{postId}: get a specific post by ID
->### Schemas
-This project is aimed at creating the basic design of the backend of Instagram. This Readme.md file will guide you through the project setup, the models used, and the API endpoints available.
 
 ## Models
-
-Student {
-@Id
-private String ID;
-private String name;
-private String age;
-private String phoneNumber;
-private String branch;
-private String department;
-
-@OneToOne
-private Address address;
-
-
-}
-
-Laptop{
-@Id
-private String ID;
-private String name;
-private String brand;
-private Integer price;
-
-@OneToOne
-private Student student;
-
-
-}
-
-Course {
-@Id
-private String ID;
-private String title;
-private String description;
-private String duration;
-
-@ManyToMany
-List<Student> studentList;
-}
-
-Book {
-@Id
-private String ID;
-
-private String title;
-private String author;
-private String description;
-private String price;
-
-@ManyToOne
-private Student student;
-}
-
-Address {
-private Long addressId;private String landmark;
-private String zipcode;
-private String district;
-private String state;
-private String country;
-
-}
-
+`
+Doctor
+Patient
+Appointment
+`
 
 >## Project Summary
-This project includes the basic design of the backend of Mapping, including user and post models, and API endpoints for user authentication and post creation/retrieval. Further improvements can be made to include additional features such as comment and like functionality
+This project includes the basic design of the backend of DoctorApp, including user and Doctor models, and API endpoints for user authentication and post creation/retrieval. 
